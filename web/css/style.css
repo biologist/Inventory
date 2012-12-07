@@ -1,0 +1,124 @@
+.tdPadding{
+	padding:30px 10px 30px 10px !important;
+}
+
+.info{
+	line-height:26px !important; 
+	font-size:16px !important;
+}
+
+.desContainer{
+	width:740px;
+	float:left;
+}
+
+.desContainer .topic{
+	letter-spacing:4px;
+	margin-top:50px;
+}
+
+.desContainer .description{
+	text-indent:1in; 
+	letter-spacing:2px; 
+	font-size:17px !important;
+}
+
+.imgContainer{
+	float:left; 
+	width:200px;
+}
+
+.clear{
+	clear:both;
+}
+
+.line{
+	margin-top:0px; 
+	margin-bottom:0px;
+}
+
+.largeImgContainer{
+	width:300px; 
+	margin-bottom: 20px;
+}
+
+.largeImgContainer .border{
+	border: 1px solid #E8E8E8; 
+	padding:10px; 
+	min-height:455px;
+}
+
+.detailContainer{
+	width:620px; 
+	margin-bottom: 20px;
+}
+
+.detailContainer .border{
+	border: 1px solid #E8E8E8; 
+	padding:10px; 
+	min-height:450px; 
+	font-size:16px;
+}
+
+.itemContainer{
+	min-height:300px; 
+	margin-bottom: 20px;
+}
+
+.itemContainer .border{
+	border: 1px solid #E8E8E8; 
+	padding:10px;
+}
+
+.headContainer{
+	height:400px; 
+	width:640px; 
+	float:left;
+}
+
+.headContainer .topic{
+	letter-spacing:4px; 
+	margin-top:100px;
+}
+
+.headContainer .Description{
+	text-indent:1in; 
+	letter-spacing:2px;
+}
+
+.headImage{
+	float:left; 
+	width:300px;
+}
+
+.manageTopic{
+	margin-top:30px;
+}
+
+.manageTopic .new{
+	float:right; 
+	margin-right:20px; 
+	text-decoration:none;
+}
+
+.manageTable{
+	font-size:16px; 
+	margin-top:50px;
+}
+
+.manageTable .padding{
+	padding: 30px 10px 30px 10px;
+}
+
+.uploadImgContainer{
+	width:300px; 
+	height:200px; 
+	border: 1px solid #E8E8E8; 
+	float:left;
+}
+
+.uploadImgContainer .img{
+	max-width:100%; 
+	max-height:100%; 
+	margin:auto;
+}

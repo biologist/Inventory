@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/psvn/b5310547240/!svn/ver/14/Todo/src/todo/service
+END
+TodoDaoJpa.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/psvn/b5310547240/!svn/ver/14/Todo/src/todo/service/TodoDaoJpa.java
+END
+TodoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/psvn/b5310547240/!svn/ver/14/Todo/src/todo/service/TodoDao.java
+END
+TodoDaoList.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/psvn/b5310547240/!svn/ver/14/Todo/src/todo/service/TodoDaoList.java
+END
+DaoFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/psvn/b5310547240/!svn/ver/14/Todo/src/todo/service/DaoFactory.java
+END

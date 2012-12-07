@@ -1,0 +1,36 @@
+package todo.controller;
+
+import javax.servlet.ServletContext;
+import javax.servlet.ServletContextEvent;
+import javax.servlet.ServletContextListener;
+
+/**
+ * Application Lifecycle Listener implementation class ApplicationListener
+ *
+ */
+public class ApplicationListener implements ServletContextListener {
+    /**
+     * Default constructor. 
+     */
+    public ApplicationListener() {
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+     * @see ServletContextListener#contextInitialized(ServletContextEvent)
+     */
+    public void contextInitialized(ServletContextEvent sce) {
+//        EntityManagerFactory emf = Persistence.createEntityManagerFactory("todo");
+//        EntityManager em = emf.createEntityManager();
+//        ServletContext context = sce.getServletContext();
+//        context.setAttribute("EntityManagerFactory", emf);
+//        context.setAttribute("EntityManager", em);
+    }
+
+	/**
+     * @see ServletContextListener#contextDestroyed(ServletContextEvent)
+     */
+    public void contextDestroyed(ServletContextEvent sce) {
+        // TODO Auto-generated method stub
+    }
+}

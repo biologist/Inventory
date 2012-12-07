@@ -1,0 +1,33 @@
+package todo.service;
+
+/**
+ * Factory for DAO objects.
+ * This encapsulates creation of objects needed
+ * for a DAO, such as EntityManagerFactory
+ * and EntityManager.
+ * 
+ * @author James Brucker
+ *
+ */
+public class DaoFactory {
+	private static final String PERSISTENCE_UNIT = "todo";
+	// singleton instance of this factory
+	private static DaoFactory factory;
+
+	private TodoDao dao;
+
+	private DaoFactory() {
+//		emf = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT);
+//		em = emf.createEntityManager();
+	}
+	
+	public static DaoFactory getInstance() {
+		if (factory == null) factory = new DaoFactory();
+		return factory;
+	}
+	
+	public TodoDao getTodoDao() {
+		if (dao == null) dao = new TodoDaoList( );
+		return dao;
+	}
+}

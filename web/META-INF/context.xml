@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+ 	<Realm
+		className="org.apache.catalina.realm.JDBCRealm"
+		connectionName="root"
+		connectionPassword=""
+		connectionURL="jdbc:mysql://localhost:3306/carshowroom"
+		driverName="com.mysql.jdbc.Driver"
+		userTable="users"
+		userNameCol="user_name"
+		userCredCol="user_pass"
+		userRoleTable="users_role"
+		roleNameCol="role_name"
+	/>
+<!-- 	<Realm
+		className="org.apache.catalina.realm.JDBCRealm"
+		connectionName="test"
+		connectionPassword="test"
+		connectionURL="jdbc:mysql://127.0.0.1/todo"
+		driverName="com.mysql.jdbc.Driver"
+		userTable="users"
+		userNameCol="username"
+		userCredCol="password"
+		userRoleTable="user_roles"
+		roleNameCol="rolename"
+	/> -->
+</context>
